@@ -1,5 +1,6 @@
 
 🎮 JokenPô
+
 Jogo simples de Pedra, Papel e Tesoura feito com HTML, CSS e JavaScript.
 O usuário joga contra o computador, que faz escolhas aleatórias, e o placar é atualizado dinamicamente na tela.
 
