@@ -27,14 +27,7 @@ Este projeto foi fundamental para transformar conceitos teóricos em prática re
 
 ## Estrutura do projeto
 
-PROJETO-JOKENPOW/
-│
-├── index.html # Arquivo principal HTML
-├── style.css # Arquivo CSS para estilos
-├── script.js # Arquivo JavaScript com a lógica do jogo
-├── README.md # Arquivo de documentação
-└── assets/ # Pasta para imagens e outros recursos
-└── background-space.png # Imagem de background usada no projeto
+<pre> ``` PROJETO-JOKENPOW/ ├── index.html # Arquivo principal HTML ├── style.css # Arquivo CSS para estilos ├── script.js # Arquivo JavaScript com a lógica do jogo ├── README.md # Este arquivo de documentação └── assets/ # Pasta para imagens e outros recursos └── background-space.png # Imagem de background usada no projeto ``` </pre>
 
 
 ## Como usar
