@@ -53,11 +53,10 @@ git clone https://github.com/analiceferreirads1/PROJETO-JOKENPOW.git
 
 Entre na pasta do projeto:
 
+```bash
 cd PROJETO-JOKENPOW
 
-
-Abra o arquivo index.html no seu navegador (duplo clique ou via servidor local).
-
+```
 
 
 🧩 Funcionalidades
@@ -87,7 +86,7 @@ A interface também foi adaptada para funcionar corretamente em dispositivos mó
 
 
 ## 👩‍💻 Autora
-
+ 
 - **Nome:** Analice Ferreira  
 - **Email:** [analiceferreirads12@gmail.com](mailto:analiceferreirads12@gmail.com)  
 - **GitHub:** [@analiceferreirads1](https://github.com/analiceferreirads1)
