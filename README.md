@@ -47,9 +47,6 @@ Separação clara entre os arquivos HTML, CSS e JavaScript, mantendo o código l
 ---
 
 📁 Estrutura do Projeto
-graphql
-Copiar
-Editar
 
 PROJETO-JOKENPOW/
 
