@@ -164,3 +164,20 @@ p {
         font-family: "Chewy", system-ui;
     }
 }
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-family: "Chewy", system-ui;
+  font-size: 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #666;
+}

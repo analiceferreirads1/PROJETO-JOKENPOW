@@ -44,3 +44,10 @@ else {
     result.innerHTML = 'Você Perdeu';
 }
 }
+const resetGame = () => {
+  humanScoreNumber = 0;
+  machineScoreNumber = 0;
+  humanScore.textContent = 0;
+  machineScore.textContent = 0;
+  result.textContent = '';
+}
