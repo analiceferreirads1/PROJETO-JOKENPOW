@@ -52,6 +52,7 @@ Copiar
 Editar
 
 PROJETO-JOKENPOW/
+
 ├── index.html              # Arquivo principal HTML
 ├── style.css               # Arquivo CSS para estilos
 ├── script.js               # Arquivo JavaScript com a lógica do jogo
