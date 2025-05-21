@@ -45,18 +45,15 @@ Separação clara entre os arquivos HTML, CSS e JavaScript, mantendo o código l
 
 ---
 
-📁 Estrutura do Projeto
-graphql
-Copiar
-Editar
+## 📁 Estrutura do Projeto
 
 PROJETO-JOKENPOW/
-├── index.html              # Arquivo principal HTML
-├── style.css               # Arquivo CSS para estilos
-├── script.js               # Arquivo JavaScript com a lógica do jogo
-├── README.md               # Este arquivo de documentação
-└── assets/                 # Pasta para imagens e outros recursos
-    └── background-space.png   # Imagem de background usada no projeto
+├── index.html # Arquivo principal HTML
+├── style.css # Arquivo CSS para estilos
+├── script.js # Arquivo JavaScript com a lógica do jogo
+├── README.md # Este arquivo de documentação
+└── assets/ # Pasta para imagens e outros recursos
+└── background-space.png # Imagem de background usada no projeto
 
 ---
 
