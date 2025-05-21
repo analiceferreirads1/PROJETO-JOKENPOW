@@ -1,58 +1,95 @@
-# JokenPô
 
-Jogo simples de Pedra, Papel e Tesoura feito com HTML, CSS e JavaScript.  
-O usuário joga contra o computador, que faz escolhas aleatórias, e o placar é atualizado na tela.
+🎮 JokenPô
+Jogo simples de Pedra, Papel e Tesoura feito com HTML, CSS e JavaScript.
+O usuário joga contra o computador, que faz escolhas aleatórias, e o placar é atualizado dinamicamente na tela.
 
-## Tecnologias
+🛠 Tecnologias
+HTML5
 
-- HTML5  
-- CSS3  
-- JavaScript (ES6)
+CSS3
 
-## O que aprendi com este projeto
-
-Durante o desenvolvimento deste projeto, que faz parte do aprendizado no curso FullStack - DevClub, consolidei vários conhecimentos essenciais para a minha formação como desenvolvedora Front-End e para atuação como Full Stack. Entre eles:
-
-- **Manipulação do DOM (Document Object Model):** Acesso e modificação de elementos HTML via JavaScript para atualizar o conteúdo dinamicamente, como placar e resultado do jogo.  
-- **Eventos e interação com o usuário:** Captura de cliques e outras ações para controlar a lógica do jogo.  
-- **Lógica de programação aplicada:** Uso de estruturas condicionais (`if`, `else if`, `else`) para implementar as regras do jogo.  
-- **Arrays e números aleatórios:** Armazenamento das opções do jogo em arrays e uso do `Math.random()` para escolhas aleatórias do computador.  
-- **Estruturação e semântica do HTML:** Organização do conteúdo com tags semânticas para acessibilidade e clareza.  
-- **Estilização CSS responsiva:** Aplicação de media queries para adaptar o layout a diferentes tamanhos de tela.  
-- **Gerenciamento de estado e atualização da interface:** Manutenção da pontuação via variáveis e atualização em tempo real da interface.  
-- **Versionamento de código com Git:** Prática de commits claros e envio para o GitHub, entendendo a importância do controle de versões.  
-- **Boas práticas de código e organização:** Separação clara entre arquivos HTML, CSS e JavaScript, mantendo o código limpo e organizado.
-
-Este projeto foi fundamental para transformar conceitos teóricos em prática real, preparando-me para desafios profissionais no desenvolvimento web.
-
-## Estrutura do projeto
-
-<pre> ``` PROJETO-JOKENPOW/ ├── index.html # Arquivo principal HTML ├── style.css # Arquivo CSS para estilos ├── script.js # Arquivo JavaScript com a lógica do jogo ├── README.md # Este arquivo de documentação └── assets/ # Pasta para imagens e outros recursos └── background-space.png # Imagem de background usada no projeto ``` </pre>
+JavaScript (ES6)
 
 
-## Como usar
+📚 O que aprendi com este projeto
+Durante o desenvolvimento deste projeto, que faz parte do aprendizado no curso FullStack - DevClub, consolidei vários conhecimentos essenciais para minha formação como desenvolvedora Front-End e futura Full Stack. Entre eles:
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/analiceferreirads1/PROJETO-JOKENPOW.git
+Manipulação do DOM (Document Object Model):
+Acesso e modificação de elementos HTML via JavaScript para atualizar o conteúdo dinamicamente (ex: placar e resultado do jogo).
 
-2. Entre na pasta do projeto:
+Eventos e interação com o usuário:
+Captura de cliques e outras ações para controlar a lógica do jogo.
+
+Lógica de programação aplicada:
+Uso de estruturas condicionais if, else if e else para implementar as regras do jogo.
+
+Arrays e números aleatórios:
+Armazenamento das opções do jogo em arrays e uso da função Math.random() para escolhas aleatórias do computador.
+
+Estruturação e semântica do HTML:
+Organização do conteúdo com tags semânticas para acessibilidade e clareza.
+
+Estilização CSS responsiva:
+Uso de media queries para adaptar o layout a diferentes tamanhos de tela.
+
+Gerenciamento de estado e atualização da interface:
+Manutenção da pontuação via variáveis e atualização em tempo real na interface.
+
+Versionamento de código com Git e GitHub:
+Prática de commits claros e envio para o GitHub, entendendo a importância do controle de versões.
+
+Boas práticas de código e organização:
+Separação clara entre os arquivos HTML, CSS e JavaScript, mantendo o código limpo e organizado.
+
+🧠 Este projeto foi fundamental para transformar conceitos teóricos em prática real, preparando-me para desafios profissionais no desenvolvimento web.
+
+---
+
+📁 Estrutura do Projeto
+graphql
+Copiar
+Editar
+
+PROJETO-JOKENPOW/
+├── index.html              # Arquivo principal HTML
+├── style.css               # Arquivo CSS para estilos
+├── script.js               # Arquivo JavaScript com a lógica do jogo
+├── README.md               # Este arquivo de documentação
+└── assets/                 # Pasta para imagens e outros recursos
+    └── background-space.png   # Imagem de background usada no projeto
+
+---
+
+🚀 Como usar
+Clone este repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/analiceferreirads1/PROJETO-JOKENPOW.git
+Entre na pasta do projeto:
+
+bash
+Copiar
+Editar
 cd PROJETO-JOKENPOW
+Abra o arquivo index.html no seu navegador (duplo clique ou via servidor local).
 
-3. Abra o arquivo index.html no seu navegador (duplo clique ou via servidor local).
+---
 
-Funcionalidades
-Escolha entre pedra, papel ou tesoura.
+🧩 Funcionalidades
+Escolha entre Pedra, Papel ou Tesoura
 
-Computador escolhe aleatoriamente.
+O computador escolhe aleatoriamente
 
-Placar atualizado com vitórias do jogador e da máquina.
+O placar é atualizado com vitórias do jogador e da máquina
 
-Mensagem indicando vitória, derrota ou empate.
+Mensagem indicando vitória, derrota ou empate
 
-Botão para resetar o jogo (se implementado).
+(Opcional) Botão para resetar o jogo
 
-Autor
+👩‍💻 Autora
 Analice Ferreira
-GitHub
-Email: analiceferreirads12@gmail.com
+📧 Email: analiceferreirads12@gmail.com
+🐙 GitHub: @analiceferreirads1
+
