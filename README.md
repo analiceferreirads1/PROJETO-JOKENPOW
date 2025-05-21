@@ -44,15 +44,13 @@ Separação clara entre os arquivos HTML, CSS e JavaScript, mantendo o código l
 
 🧠 Este projeto foi fundamental para transformar conceitos teóricos em prática real, preparando-me para desafios profissionais no desenvolvimento web.
 
----
-
 
 <pre> 📁 <strong>Estrutura do Projeto</strong>
 
  ```bash PROJETO-JOKENPOW/ ├── index.html # Arquivo principal HTML ├── style.css # Arquivo CSS para estilos ├── script.js # Arquivo JavaScript com a lógica do jogo ├── README.md # Arquivo de documentação └── assets/ # Pasta para imagens e outros recursos └── background-space.png # Imagem de background usada no projeto ``` 
 </pre>
 
----
+
 
 🚀 Como usar
 Clone este repositório:
@@ -69,7 +67,7 @@ Editar
 cd PROJETO-JOKENPOW
 Abra o arquivo index.html no seu navegador (duplo clique ou via servidor local).
 
----
+
 
 🧩 Funcionalidades
 Escolha entre Pedra, Papel ou Tesoura
