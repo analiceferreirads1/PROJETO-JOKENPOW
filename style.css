@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./assets/background-space.png');
+    /*Utilizado para ir trocando as imagens do background */
+    background-size: cover;
+    
+    /*Utilizada para evitar que as imagens se repitam*/
+    background-color: #f0f0f0;
+    /* definir um estilo caso a imagem não carregue ou como um fallback.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    padding: 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+}
+
+.container:hover {
+   
+    border: 4px solid #ffd700;
+    color: #111D5E;
+    transition: 0.5s ease-in-out;
+}
+
+button {
+    font-family: "Chewy", system-ui;
+    padding: 30px;
+    font-size: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    /* Transições suaves de entrada e de saida */
+
+}
+
+button:hover {
+    transform: scale(1.15);
+    /* Efeito de "levantar" ao passar o mouse */
+    box-shadow: 0 5px 20px rgba(255, 220, 0, 0.7);
+}
+
+button:active {
+    transform: scale(1.0);
+    /* Efeito de "pressionar" ao clicar */
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+    /* Espaço entre os botões */
+
+}
+
+#rock {
+    background-color:#C70039;
+}
+
+#paper {
+    background-color:#111D5E ;
+}
+
+#scissors {
+    background-color: #F37121;
+}
+
+h1 {
+    font-family: "Bangers", system-ui;
+    font-size: 60px;
+    color: #333;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2); /*Dá um efeito 3D ao título*/
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-family: "Chewy", system-ui;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.your-score span {
+    color: rgb(20, 104, 194);
+}
+
+.machine-score span {
+    color: rgb(217, 16, 23);
+}
+
+/* Estilos para telas com largura máxima de 768 pixels (tablets) */
+@media (max-width: 768px) {
+    .container {
+        padding: 40px;
+        /* Reduz o padding em telas menores */
+    }
+
+    h1 {
+        font-size: 40px;
+        /* Reduz o tamanho da fonte do título */
+    }
+
+    .buttons {
+        gap: 15px;
+        font-family: "Chewy", system-ui;
+        /* Reduz o espaço entre os botões */
+    }
+
+    button {
+        padding: 20px;
+        font-size: 60px;
+        font-family: "Chewy", system-ui;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Chewy", system-ui;
+    }
+}
+
+/* Estilos para telas com largura máxima de 480 pixels (celulares) */
+@media (max-width: 480px) {
+    .container {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .buttons {
+        font-family: "Chewy", system-ui;
+        gap: 10px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 40px;
+        font-family: "Chewy", system-ui;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: "Chewy", system-ui;
+    }
+}
