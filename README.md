@@ -1,5 +1,6 @@
 
 🎮 JokenPô
+
 Jogo simples de Pedra, Papel e Tesoura feito com HTML, CSS e JavaScript.
 O usuário joga contra o computador, que faz escolhas aleatórias, e o placar é atualizado dinamicamente na tela.
 
@@ -54,6 +55,18 @@ PROJETO-JOKENPOW/
 ├── README.md # Este arquivo de documentação
 └── assets/ # Pasta para imagens e outros recursos
 └── background-space.png # Imagem de background usada no projeto
+
+📁 Estrutura do Projeto
+
+PROJETO-JOKENPOW/
+
+├── index.html              # Arquivo principal HTML
+├── style.css               # Arquivo CSS para estilos
+├── script.js               # Arquivo JavaScript com a lógica do jogo
+├── README.md               # Este arquivo de documentação
+└── assets/                 # Pasta para imagens e outros recursos
+    └── background-space.png   # Imagem de background usada no projeto
+
 
 ---
 
