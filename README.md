@@ -4,6 +4,9 @@ Jogo simples de Pedra, Papel e Tesoura feito com HTML, CSS e JavaScript. O usuá
 
 ---
 
+🔗 Acesse o projeto online: [Clique aqui para jogar JokenPô](https://analiceferreirads1.github.io/PROJETO-JOKENPOW/)
+
+
 ## 🛠 Tecnologias
 
 - HTML5  
@@ -43,7 +46,8 @@ PROJETO-JOKENPOW/
   
   ```
 
-🚀 Como usar
+## 🚀 Como usar
+
 
 Clone este repositório:
 
@@ -52,7 +56,6 @@ git clone https://github.com/analiceferreirads1/PROJETO-JOKENPOW.git
 ```
 
 Entre na pasta do projeto:
-
 ```bash
 cd PROJETO-JOKENPOW
 
@@ -86,7 +89,11 @@ A interface também foi adaptada para funcionar corretamente em dispositivos mó
 
 
 ## 👩‍💻 Autora
- 
 - **Nome:** Analice Ferreira  
+
+## 💬 Feedback
+
+Ficarei feliz em receber feedbacks, sugestões ou colaborações! 😊  
+
 - **Email:** [analiceferreirads12@gmail.com](mailto:analiceferreirads12@gmail.com)  
 - **GitHub:** [@analiceferreirads1](https://github.com/analiceferreirads1)
